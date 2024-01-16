@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,600&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* nav styles */
+
+    .header-section{
+        display: flex;           
+    max-width: 1170px;
+    height: 100px;
+    margin: 0 auto;  
+ 
+    }
+.nav-container{
+    display: flex;
+    gap: 10px;
+    font-size: 35px;
+    align-items: center;
+    width: 50%;
+   
+  
+}
+
+
+.nav-container img{
+    width: 70px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.travels-title{
+    color: #FF5400;
+}
+
+.items-containr{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items-containr a{
+    text-decoration: none;
+}
+
+
+/* mobile */
+@media screen and (max-width: 600px) {
+    .nav-container{
+
+        font-size: 20px;
+        align-items: center;
+        width: 100%;
+      
+    }
+    .nav-container img{
+        width: 59px;
+        height: 50px;
+       
+    }
+.hide{
+    display: none;
+}
+.header-section{
+  
+}
+.items-containr{
+    width: 10%;
+}
+.icon{
+    display: block;
+}
+}
+
+
+/* laptop */
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .icon{
+        display: none;
+    }
+    .nav-container{
+
+        font-size: 25px;
+        align-items: center;
+        width: 50%;
+    
+    }
+
+
+}
