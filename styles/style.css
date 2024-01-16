@@ -43,6 +43,73 @@
 .items-containr a{
     text-decoration: none;
 }
+/* banner section */
+.banner-section{
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  line-height: 40px;
+   
+}
+.button-title{
+    border-radius: 8px;
+background: #FF5400;
+border: none;
+color: #FFFFFF;
+width: 150px;
+height: 40px;
+}
+.banner-text{
+    font-size: 65px;
+    color: #FFFFFF;
+
+ 
+}
+.banner2{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+ max-width: 900px;
+margin: 0 auto;
+display: flex;
+gap: 15px;
+margin-top: 20px;
+padding: 20px;
+
+
+}
+ .banner-section .banner-text1{
+    color: #FFFFFF;
+  font-size: 16px;
+   max-width: 600px;
+
+margin: 0 auto;
+    
+}
+.input{
+    border-radius: 8px;
+    background: #FFFFFF;
+border: none;
+width: 150px;
+height: 40px;
+position: relative;
+}
+.frem2{
+ position: relative;
+right: 10px;
+top: -55px;
+}
+.frem3{
+    position: relative;
+    left: 120px;
+    top: -55px;
+}
 
 
 /* mobile */
@@ -50,7 +117,6 @@
     .nav-container{
 
         font-size: 20px;
-        align-items: center;
         width: 100%;
       
     }
@@ -62,30 +128,65 @@
 .hide{
     display: none;
 }
-.header-section{
-  
-}
+
 .items-containr{
     width: 10%;
 }
 .icon{
     display: block;
 }
+
+.banner1{
+    flex-direction: column;
+}
+.banner2{
+    flex-direction: column;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+     max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 30px;
+    
+}
+.banner-text{
+    font-size: 35px;
+    color: #FFFFFF;
+
+ 
+}
+.frem2{
+   
+  left: 98px;
+   top: -120px;
+   }
+   .frem3{
+       
+     left:70px ;
+       top: -180px;
+   }
+   .input{
+
+width: 200px;
+}
+.button-title{
+ 
+width: 200px;
+
+}
+   
 }
 
 
 /* laptop */
-@media screen and (min-width: 600px) and (max-width: 992px) {
+@media screen and (min-width: 992px) {
     .icon{
         display: none;
     }
-    .nav-container{
 
-        font-size: 25px;
-        align-items: center;
-        width: 50%;
-    
-    }
-
-
+ 
+  
 }
+
