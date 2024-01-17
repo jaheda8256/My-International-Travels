@@ -373,6 +373,24 @@ left: 340px;
 .border2{
     font-size: 20px;
 }
+.travel1{
+    max-width: 1170px;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: darkcyan;
+   
+}
+.tody{
+    font-size: 30px;
+}
+.traveling{
+   
+   display: flex;
+   gap: 100px;
+    height: 200px;
+  
+}
 
 /* footer */
 footer{
@@ -422,6 +440,7 @@ footer{
     top: 80px;
     color: rgba(19, 19, 24, 0.70);
 }
+
 
 
 /* mobile */
@@ -606,6 +625,7 @@ position: relative;
 
     color: #FFFFFF;
     }
+   
     .project-image{
         width: 100%;
     }
@@ -678,6 +698,17 @@ position: relative;
 
 left: 160px;
 
+}
+.travel1{
+    max-width: 1170px;
+    height: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: darkcyan;
+   
+}
+.traveling{
+    flex-direction: column;
 }
 }
 
