@@ -301,28 +301,7 @@ background: rgba(233, 68, 68, 0.05);
 padding: 20px 20px;
 
 }
-/* discount style  */
-/* .p-discount{
 
-}
-.destination-title{
-    max-width: 1170px;
-    min-height: 500px;
-    margin: 0 auto;
-    background-image: url('../Images/Group\ 39.png');
-}
-.destination-title{
-    max-width: 1170px;
-    min-height: 500px;
-    margin: 0 auto;
-    background-image: url('../Images/Group\ 40.png'),lightgray 50% / cover no-repeat;
-}
-.destination-title{
-    max-width: 1170px;
-    min-height: 500px;
-    margin: 0 auto;
-    background-image: url('../Images/Group\ 39.png');
-} */
 .news{
     height: 340px;
     width: 40%;
@@ -367,8 +346,35 @@ font-size: 20px;
 }
 .news1{
     width: 65%;
-    
+    position: relative;
+
 }
+
+.border{
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+border: none;
+color: #FFFFFF;
+text-align: center;
+position: absolute;
+bottom: 60px;
+left: 340px;
+
+
+}
+
+.border1{
+   position:relative;
+   top: 20px;
+}
+.border2{
+    font-size: 20px;
+}
+
+/* footer */
 footer{
     max-width: 1400px;
     min-height: 460px;
@@ -666,6 +672,13 @@ position: relative;
     
     color: rgba(19, 19, 24, 0.70);
 }
+
+.border{
+    width: 224px;
+
+left: 160px;
+
+}
 }
 
 /* laptop */
@@ -673,6 +686,7 @@ position: relative;
     .icon{
         display: none;
     }
+    
 
     
   
