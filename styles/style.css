@@ -138,9 +138,106 @@ top: -55px;
 }
  .heading{
     color: #131318;
-    font-size: 42px;
+    font-size: 38px;
  }
+ .destination{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 
+ }
+ .destination2{
+    margin-top: 80px;
+    font-size: 38px;
+    line-height: 1rem;
+ }
+ .row{
+
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 30px;
+   display: flex;
+  align-items: center;
+  position: relative;
+   gap: 25px;
+    
+ }
+ 
+ .image-items{
+   
+  width: 50%;
+ }
+ .image-items1{
+    
+width: 50%;
+ }
+     .row1{
+   
+       position: absolute;
+        right: 820px;
+        color: #FFFFFF;
+     
+
+    }
+    .row2{
+        position:absolute;
+        right: 210px;
+        
+        color: #FFFFFF;
+    }
+
+.image-title-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.srilanka{
+    position: absolute;
+    right: 940px;
+   
+    color: #FFFFFF;
+}
+.North{
+    position: absolute;
+    right: 450px;
+ 
+    color: #FFFFFF;
+   
+}
+.Kashmir{
+    position: absolute;
+    right: 100px;
+   
+    color: #FFFFFF;
+}
+.destination-img{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.bangladesh{
+   position: absolute;
+    right: 850px;
+    color: #FFFFFF;
+}
+.bandarban{
+position: absolute;
+right: 280px;
+color: #FFFFFF;
+}
+.destination-section{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* hotel title */
 
 
 /* mobile */
@@ -172,16 +269,20 @@ top: -55px;
 }
 .banner2{
     flex-direction: column;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
+  
      max-width: 900px;
     margin: 0 auto;
-    display: flex;
+  
     gap: 15px;
     margin-top: 20px;
     padding: 30px;
     
 }
+.destination2{
+    margin-top:10px;
+    font-size: 35px;
+    line-height: 40px;
+ }
 .banner-text{
     font-size: 35px;
     color: #FFFFFF;
@@ -227,6 +328,106 @@ margin-top: 20px;
     color: #131318;
     font-size: 32px;
  }
+ .image-title-section{
+    margin-top: 20px;
+    gap: 20px;
+    flex-direction: column;
+position: relative;
+}
+.row{
+
+    margin: 0 auto;
+    margin-top: 30px;
+   display: flex;
+  align-items: center;
+ 
+   gap: 25px;
+   flex-direction: column;
+   position: relative;
+ }
+ .destination-img{
+    position: relative;
+    flex-direction: column;
+
+}
+.project-image{
+    width: px;
+}
+.bandarban{
+    width: 400px;
+}
+.image-items{
+ 
+    width: 100%;
+   }
+   .image-items1{
+      
+  width: 100%;
+   }
+   .row1{
+    position: absolute;
+        top: 60px;
+         right: 140px;
+         color: #FFFFFF;
+      
+ 
+     }
+     .row2{
+       position: absolute;
+       top: 290px;
+         right: 140px;
+     
+         color: #FFFFFF;
+     }
+     .srilanka{
+        position: absolute;
+        right: 150px;
+       
+       top: 100px;
+        color: #FFFFFF;
+    }
+    .North{
+        position: absolute;
+        right: 110px;
+     top: 390px;
+        color: #FFFFFF;
+       
+    }
+    .Kashmir{
+        position:absolute;
+        right: 150px;
+       top: 725px;
+        color: #FFFFFF;
+    }
+    .srilanka1{
+        width: 100%;
+    }
+    .North1{
+        width: 100%;
+    }
+    .Kashmir1{
+        width: 100%;
+    }
+    .bangladesh{
+        position: absolute;
+        right: 120px;
+        top: 80px;
+        color: #FFFFFF;
+    }
+    .bandarban{
+    position: absolute;
+    top: 310px;
+   right: 0px;
+   left: 120px;
+
+    color: #FFFFFF;
+    }
+    .project-image{
+        width: 100%;
+    }
+    .project-image1{
+        width: 100%;
+    }
    
 }
 
@@ -237,7 +438,7 @@ margin-top: 20px;
         display: none;
     }
 
- 
+    
   
 }
 
